@@ -1,0 +1,26 @@
+body{
+    background-image: url('../outros/derrotacenario4.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 680px;
+    }
+    pre{
+        color: white;
+        font-size: 90px;
+        border: none;
+    }
+    input[type="button"] {
+        color: rgb(255, 255, 255); 
+        border: none; 
+        border-radius: 20px;
+        padding: 33px 7px; 
+        margin-top: auto;
+        --cor-primaria-success : #eeeeee00;
+        font-family: Georgia;
+        font-size: 20px;
+        text-align: center;
+        line-height: 5px;
+      }
+        
+    

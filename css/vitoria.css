@@ -1,0 +1,34 @@
+body{
+    background-image: url('../outros/vitoriafundo\ \(Personalizado\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+     height: 790px;
+    }
+    h1{
+        text-align: center;
+        font-size: 100px;
+        color: gold;
+        line-height: 1%;
+    }
+    input[type="button"] {
+        color: rgb(144, 105, 5); 
+        border: none; 
+        border-radius: 250px;
+        padding: 33px 10px; 
+        margin-top: auto;
+        margin-bottom: -10px;
+        --cor-primaria-success : #eeeeee00;
+        font-family: Georgia;
+        font-size: 28px;
+        text-align: center;
+        line-height: 5px;
+        
+      }
+
+    input {
+      transition: transform 0.3s ease;
+    }
+    input:active {
+      transform: scale(0.9);
+    }

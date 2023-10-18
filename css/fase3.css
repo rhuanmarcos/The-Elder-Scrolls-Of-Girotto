@@ -1,0 +1,31 @@
+body {
+  background-image: url('../outros/cenariofase3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+}
+button{
+    color: rgb(0, 0, 0); 
+    border: none; 
+    border-radius: 250px;
+    padding: 20px 10px; 
+    margin-top: auto;
+    margin-bottom: -10px;
+    --cor-primaria-success : #eeeeee00;
+    font-family: Georgia;
+    font-size: 15px;
+    line-height: 5px;
+    position: fixed;
+    top: 1px;
+    left: 0;
+  }
+  button {
+    transition: transform 0.3s ease;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+  span{
+    color: red;
+  }

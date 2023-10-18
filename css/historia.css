@@ -1,0 +1,31 @@
+body{
+    background-image: url('../outros/pergaminho4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50px;
+}
+h1{
+    font-size: 40px;
+}
+div{
+    font-size: 15px;
+}
+input[type="button"] {
+    color: rgb(255, 255, 255); 
+    border: none; 
+    border-radius: 20px;
+    padding: 33px 5px; 
+    margin-top: auto;
+    --cor-primaria-success : #eeeeee00;
+    font-family: Georgia;
+    font-size: 23px;
+    text-align: center;
+    line-height: 5px;
+  }
+  input {
+    transition: transform 0.3s ease;
+  }
+  input:active {
+    transform: scale(0.9);
+  }

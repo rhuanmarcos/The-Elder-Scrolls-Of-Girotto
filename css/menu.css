@@ -1,0 +1,37 @@
+body {
+    background-image: url('../outros/cenariomenu.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 799px;
+  }
+  img {
+    width: 790px;
+    display: block;
+    position: fixed;
+    top: 7%;
+    right: 26%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+input[type="button"] {
+    color: rgb(255, 255, 255); 
+    border: none; 
+    border-radius: 250px;
+    padding: 33px 10px; 
+    margin-top: auto;
+    margin-bottom: -10px;
+    --cor-primaria-success : #eeeeee00;
+    font-family: Georgia;
+    font-size: 28px;
+    text-align: center;
+    line-height: 5px;
+  }
+  input {
+    transition: transform 0.3s ease;
+  }
+  input:active {
+    transform: scale(0.9);
+  }
+    
